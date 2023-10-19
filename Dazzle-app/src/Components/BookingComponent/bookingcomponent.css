@@ -1,0 +1,196 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.shop-booking-conatiner{
+    width: 100%;
+    height: 100%;
+    height: 900px;
+}
+.shop-details-container{
+    background-color: #112D4E;
+    display: flex;
+    justify-content: center;
+    height: 26%;
+    padding: 2% 0;
+}
+.shop-booking-features-main-container{
+    height: 5%;
+    display: flex;
+    justify-content: center;
+    border-bottom: 2px solid rgba(109, 115, 139, 0.397);
+    margin: 1% 0;
+}
+.shop-categories-main-container{
+    height: 49%;
+    background-color: brown;
+    display: flex;
+    justify-content: center;
+}
+.shop-ratings-main-container{
+    height: 20%;
+    background-color: chartreuse;
+    display: flex;
+    justify-content: center;
+}
+.other-shop-features{
+    color: white;
+    display: flex;
+    gap: 10px;
+}
+
+.shop-details-content-container{
+    width: 80%;
+    height: 100%;
+    /* background-color: darkmagenta; */
+    display: flex;
+    /* justify-content: center; */
+}
+.shop-booking-features-container{
+    width: 80%;
+    /* height: 100%; */
+    display: flex;
+    align-items: center;
+    padding: 0 1%;
+    overflow-x: auto;
+    /* border-bottom: 2px solid rgba(109, 115, 139, 0.397); */
+    /* margin: 1% 0; */
+}
+.shop-categories-container{
+    width: 80%;
+    height: 100%;
+    background-color: rgb(255, 0, 212);
+    display: flex;
+}
+
+.rating-shop-container{
+
+    width: 80%;
+    height: 100%;
+    background-color: rgb(221, 108, 42);
+
+}
+.booking-shop-image{
+    flex: 40%;
+    height: 100%;
+    background-color: bisque;
+}
+.booking-shop-image img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+
+}
+.booking-shop-details{
+    flex: 60% 1;
+    height: 100%;
+    padding: 0px 2%;
+    display: flex;
+    flex-direction: column;
+    gap: 4%;
+}
+.booking-shop-name{
+    font-size: 20px;
+    color: white;
+    font-weight: 800;
+}
+.booking-shop-disc{
+   width: 55%;
+   word-wrap: break-word;
+}
+.booking-shop-disc p{
+    font-size: 12;
+    color: white;
+    width: 100%;
+    font-weight: 400;
+    margin: 0;
+    letter-spacing: 1px;
+}
+.booking-shop-ratings-container{
+    display: flex;
+    align-items: center;
+    /* padding: .5% 0px; */
+}
+.booking-shop-ratings{
+    font-size: 12;
+    color: white;
+    font-weight: 400;
+    padding: 0px 1% 0% 0px;
+    display: flex;
+    align-items: center;
+}
+.book-rating-icon{
+    /* padding: 0px 1%; */
+    /* display: flex;
+    align-items: center; */
+    padding: .5% 0 0 0;
+}
+.book-rating-icon span{
+    color: gold;
+}
+.booking-shop-locationAndDistance{
+    color: white;
+}
+.booking-shop-locationAndDistance span{
+      
+    font-size: 12;
+    color: white;
+    font-weight: 400;
+    padding: 0px 1% 0% 0px;
+
+}
+.booking-shop-timing{
+    color: white;
+}
+.booking-shop-feature-list{
+    font-size: 13px;
+    font-weight: 400;
+    color: black;
+    cursor: pointer;
+    height: 100%;
+    width: fit-content;
+    display: flex;
+    align-items: center;
+    padding: 1% 1%;
+    margin: 0 .5%;
+}
+/* .booking-shop-feature-list:hover{
+    border-bottom: 3px solid black;
+    transition: all .1s ease;
+} */
+
+.booking-shop-feature-list a{
+font-size: 1rem;
+font-weight: 500;
+color: black;
+}
+
+.booking-shop-feature-list a:hover{
+    color: black;
+}
+
+.featureColor{
+
+    border-bottom: 3px solid black;
+
+}
+.shop-booking-search-container svg{
+
+    font-size: 1.7rem;
+
+}
+.shop-favourate-icon svg{
+
+    font-size: 1.7rem;
+
+}
+.shop-share-icon svg{
+
+    font-size: 1.7rem;
+
+}
+.favourate-color{
+    color: red;
+}

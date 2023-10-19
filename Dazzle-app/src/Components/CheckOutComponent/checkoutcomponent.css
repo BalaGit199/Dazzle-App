@@ -1,0 +1,27 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+.checkout-main-container{
+
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.checkout-header-container{
+    flex: 20%;
+    background-color: black;
+}
+.chechkout-content-container{
+    flex: 80%;
+    display: flex;
+}
+.scheckout-slotandpayment-container{
+    flex: 65%;
+}
+.checkout-checkoutcart-review{
+    flex: 35%;
+}

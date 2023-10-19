@@ -1,0 +1,69 @@
+.filter-content-main{
+    display: flex;
+}
+.css-1t4vnk2-MuiDialogContent-root{
+    /* background-color: black; */
+    height: 300px;
+    width: 200px;
+}
+.css-hz1bth-MuiDialog-container{
+    height: 0px;
+}
+.label-filter-list .filter-label-items{
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+}
+.MuiDialog-container .css-140puxv-MuiTypography-root-MuiDialogTitle-root{
+
+    border-bottom:1px solid  rgba(0,0,0,0.2);
+
+
+}
+
+.MuiDialog-container .css-1t1j96h-MuiPaper-root-MuiDialog-paper{
+    overflow-y: visible;
+    max-width: none;
+    max-height: fit-content;
+    width: 35%;
+    /* padding: 100px 0; */
+}
+.filter-label{
+    flex: 40%;
+}
+.label-filter-list{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    justify-content: space-evenly;
+    /* padding: 0px 5%; */
+    overflow-y: scroll;
+}
+.filter-label-items{
+    height: 20%;
+    /* background-color: aqua; */
+    margin: 5px 0px;
+    font-weight: 800;
+    padding: 0 5px;
+}
+.filter-feature{
+    flex: 60%;
+    padding: 0px 2%;
+    border-left: 1px solid  rgba(0,0,0,0.2);
+    /* color: rgba(0,0,0,0.6); */
+    overflow-y: scroll;
+    height: 200px;
+}
+.filter-action-btn{
+    border-top:1px solid  rgba(0,0,0,0.2);
+}
+.MuiFormGroup-root .css-dmmspl-MuiFormGroup-root{
+
+    overflow-y: hidden;
+    padding: 0 3%;
+}
+.example{
+   border-left: 5px solid rebeccapurple;
+   color: black;
+   background-color: rgb(232, 224, 240);
+}

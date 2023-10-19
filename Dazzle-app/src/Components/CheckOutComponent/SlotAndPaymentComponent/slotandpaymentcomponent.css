@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.slotandpayment-main-container{
+    width: 100%;
+    height: 100%;
+}
+
+.slotandpay-inner-container{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.slotandpay-container{
+    width: 80%;
+    height: 100%;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+}
+.slotandpay-container::before{
+    content: '';
+    display: flex;
+    border: 1px dashed;
+    height: 80%;
+    width: 0;
+    position: absolute;
+    left: -10px;
+
+}
+
+.checkout-login-container{
+    width: 100%;
+    height: 220px;
+    background-color: white;
+    position: relative;
+}
+.checkout-login-icon{
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    background-color: black;
+}
+.checkout-login-icon img{
+    width: 100%;
+    height: 100%;
+    color: white;
+}
+/* .checkout-login-container::before{
+    content: url("../../../assets/images/userchechout.png");
+    width: 40px;
+    height: 35px;
+    size: 20px;
+    /* background-image: url("../../../assets/images/userchechout.png"); */
+    /* background-color: black;
+    position: absolute;
+    top: 20%;
+    left: -5%; */
+/* }  */
+.checkout-bookingSlot-container{
+    width: 100%;
+    height: 200px;
+    background-color: white;
+}
+.checkout-payment-container{
+    width: 100%;
+    height: 180px;
+    background-color: white;
+}

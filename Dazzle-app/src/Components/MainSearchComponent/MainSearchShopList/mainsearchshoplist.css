@@ -1,0 +1,97 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.main-search-shop-list-main-container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.main-search-shop-list-container{
+    width: 85%;
+}
+
+.main-search-shop-list-body-container{
+    width: 100%;
+}
+.main-search-shop-list-body-salon{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    cursor: pointer;
+}
+.main-search-shop-list-body-salon-card{
+    display: flex;
+    width: 48%;
+    padding: 1%;
+    margin: 1%;
+    background: white;
+    border: 1px solid rgb(0 0 0 / 22%);
+    cursor: pointer;
+}   
+
+.main-search-shop-list-body-salon-card:hover{
+
+    background-color: rgba(128, 128, 128, 0.233);
+
+}
+
+.main-search-shop-list-card-image{
+    flex: 1;
+}
+.main-search-shop-list-salon-card-body{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 6%;
+    padding: 2% 0;
+}
+.main-search-shop-list-option{
+    display: flex;
+    padding: 1% 0;
+}
+.main-search-list-option-1{
+    padding: 1% 4%;
+    margin: .5%;
+    border-radius: 20px;
+    border: 1px solid rgba(2,6,12,.14901960784313725);
+    color: #282c3f;
+    font-size: 1rem!important;
+    font-weight: 600;
+    cursor: pointer;
+}
+.main-search-list-option-2{
+    padding: 1% 4%;
+    margin: .5%;
+    border-radius: 20px;
+    border: 1px solid rgba(2,6,12,.14901960784313725);
+    color: #282c3f;
+    font-size: 1rem!important;
+    font-weight: 600;
+    cursor: pointer;
+    /* padding: 0 12px!important;
+    align-items: center;
+    display: flex!important; */
+
+}
+.main-search-shop-list-card-image img{
+    width: 140px;
+    height: 110px;
+    border-radius: 10px;
+    /* filter: drop-shadow(1px 1px 20px yellow); */
+}
+.search-main-colour{
+
+    background-color: #112D4E;
+    color: white;
+    cursor: pointer;
+}
+.main-search-shop-list-card-shopname{
+    font-size: 15px;
+    font-weight: 600;
+    color: #112D4E;
+    margin: 1% 0px;
+}

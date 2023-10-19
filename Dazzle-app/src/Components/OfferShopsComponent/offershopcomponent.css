@@ -1,0 +1,141 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.shop-content-main-container{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.offer-shop-container{
+    height: 100%;
+    width: 85%;
+}
+.offer-head-label{
+    width: 100%;
+    height: 20%;
+    /* padding: 0px 10px; */
+}
+
+.offer-head-label h2{
+font-size: 30px;
+font-weight: 700;
+/* line-height: 20px; */
+padding: 3% 1%;
+}
+.offer-shop-content{
+    height: 100%;
+    width: 100%;
+}
+.offer-shop-content .filter-shops{
+    display: flex;
+    padding: 1% 0;
+    gap: 30px;
+    border-bottom:2px solid rgba(40,44,63,.1);
+}
+.offer-total-shops{
+    flex: 40%;
+    /* padding: 0px 10px; */
+}
+.offer-total-shops span{
+font-size: 15px;
+font-weight: 700;
+padding: 3% 1%;
+text-transform: capitalize;
+
+}
+.offer-shop-filters{
+    flex: 59%;
+    display: flex;
+    justify-content: flex-end;
+    gap:35px;
+}
+.offer-shop-filters .filter-features{
+    font-size: 12px;
+    font-weight: 300;
+    text-transform: capitalize;
+    color: #686b78;
+    /* margin-left: 35px; */
+    cursor: pointer;
+}
+.offer-filter-list{
+    display: flex;
+}
+.offer-filter-list .filter-offer-text{
+    /* flex: 20%; */
+    padding: 0 20px 0 5px;
+    font-size: 12px;
+    font-weight: 300;
+    text-transform: capitalize;
+    color: #686b78;
+    /* margin-left: 35px; */
+    cursor: pointer;
+}
+
+.shop-card-container{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 1% 0;
+}
+.offer-card-image img{
+    width: 180px;
+    height: 146px;
+    object-fit: cover;
+    margin: 0 0 4% 0;
+    cursor: pointer;
+}
+.offer-shop-name h3{
+    font-size: 14px;
+    font-weight: 800;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  margin: 0;
+}
+.offer-shop-card{
+    padding: 1%;
+    margin: 1%;
+}
+.offer-shop-card:hover{
+    border: 1px solid #9a9a9e;
+    box-shadow: 0 1px 4px rgb(0 0 0 / 0.2);
+}
+
+/* .change-color{ */
+    /* background-color: blue; */
+/* } */
+.offer-shop-categories p{
+
+    font-size: 12px;
+    font-weight: 300;
+    color: #686b78;
+    margin: 0;
+    width: 95%;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+
+}
+.offer-shop-ratings{
+    display: flex;
+}
+.offer-shop-ratings-value{
+    font-size: 12px;
+    font-weight: 800;
+}
+.offer-shpp-location span {
+    font-size: 12px;
+    font-weight: 300;
+    color: #686b78;
+    margin: 0;
+    white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}

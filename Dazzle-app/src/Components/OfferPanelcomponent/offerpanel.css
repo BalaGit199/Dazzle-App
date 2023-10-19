@@ -1,0 +1,106 @@
+
+.offer-panel-main-container{
+   width: 100%;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+}
+.offer-panel-conatainer{
+    width: 85%;
+}
+
+.carousel-container{
+    padding: 0px 10%;
+}
+.offer-panel-header{
+    display: flex;
+    flex-direction: column;
+    margin: 5px 2%;
+}
+.offer-panel-header span{
+    font-size: 20px;
+    font-weight: 800;
+}
+.offer-panel-conatainer .react-multi-carousel-list li {
+      background-color: aqua;
+      margin: 8px;
+      height: 200px;
+      width: 400px;
+      border-radius: 20px;
+}
+
+.offer-panel-conatainer .react-multi-carousel-list li .offer-panel-card{
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+.react-multi-carousel-list li .offer-panel-card .offer-panel-card-img{
+    position: absolute;
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    background:
+    radial-gradient(at 50% 0, black, transparent 70%),
+    linear-gradient(0deg, black, transparent 50%) bottom;
+}
+.react-multi-carousel-list li .offer-panel-card .offer-panel-card-cations{
+    position: absolute;
+    z-index: 50;
+    top: 20%;
+}
+.offer-panel-card-cations{
+    width: 100%;
+}
+
+.offer-panel-caption-1{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin: 0px 4%;
+}
+.offer-panel-caption-1 .main-offer-caption{
+
+    font-size: 23px;
+    font-weight: 800;
+    color: white;
+    text-shadow: 10px black;
+    padding: 1% 0px;
+}
+.offer-panel-caption-1 .additional-offer-cation{
+    font-size: 16px;
+    font-weight: 300;
+    color: white;
+    text-shadow: 10px black;
+    padding: 1% 0px;
+}
+.react-multi-carousel-list li .offer-panel-card .offer-panel-card-button{
+    position: absolute;
+    z-index: 50;
+    bottom: 10%;
+    left: 10%;
+    background-color: #fff;
+    border: 1px solid #d5d9d9;
+    border-radius: 8px;
+    box-shadow: rgba(41, 245, 245, 0.5) 0 2px 5px 0;
+    box-sizing: border-box;
+    color: none;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 15px;
+    line-height: 29px;
+    padding: 0 10px 0 11px;
+    width: 100px;
+    font-weight: 500;
+    
+}
+
+.offer-panel-card-button:hover {
+  background-color: #f7fafa;
+}
+
+.offer-panel-card-button:focus {
+  border-color: #008296;
+  box-shadow: rgba(213, 217, 217, .5) 0 2px 5px 0;
+  outline: 0;
+}

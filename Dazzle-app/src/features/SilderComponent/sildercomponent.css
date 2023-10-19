@@ -1,0 +1,128 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+.silder-main-container{
+    background-color: white;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.slider-container{
+    width: 86%;
+    background-color: white;
+    height: 100%;
+    /* margin: 10px; */
+    position: relative;
+    overflow: hidden;
+}
+.slider-prev-btn{
+    top: 41%;
+    position: absolute;
+    outline: 0;
+    border-radius: 35px;
+    z-index: 1000;
+    border: 0;
+    background: rgba(0,0,0,0.5);
+    min-width: 43px;
+    min-height: 43px;
+    opacity: 1;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    left: 2%;
+    color: white;
+    font-size: 18px;
+}
+.slider-content{
+    position: absolute;
+    margin: 0%;
+    padding: 0%;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    transition: all .5s ease-in-out;
+}
+.slider-next-btn{
+    top: 41%;
+    position: absolute;
+    outline: 0;
+    border-radius: 35px;
+    z-index: 1000;
+    border: 0;
+    background: rgba(0,0,0,0.5);
+    min-width: 43px;
+    min-height: 43px;
+    opacity: 1;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    right: 2%;
+    color: white;
+    font-size: 18px;
+}
+.slider-card{
+    list-style-type: none;
+    margin: .7% .3%;
+    position: relative;
+    border: 1px solid #bdbdbd;
+}
+.slider-card-img{
+   position: absolute;
+   width: 100%;
+   height: 100%;
+   object-fit: cover;
+   background:linear-gradient(0deg, gray, transparent 90%) bottom;
+}
+.slider-card-content{
+    position: absolute;
+    bottom: 0%;
+    width: 100%;
+    display: flex;
+    justify-content: end;
+    height: 100%;
+    flex-direction: column;
+    background: linear-gradient(0deg, gray, transparent 70%) bottom;
+    padding: 1%;
+}
+.slider-card-shop-name{
+    
+    font-size: 15px;
+    font-weight: 800;
+    color: white;
+    text-shadow: 10px black;
+    padding: 1% 0px;
+
+}
+.slider-card-rating-icon path{
+    color: gold;
+}
+.slider-card-rating-icon{
+    display: flex;
+    align-items: center;
+}
+.slider-card-ratings{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+.slider-card-rating-value{
+    font-size: 10px;
+    font-weight: 400;
+    color: white;
+    text-shadow: 10px black;
+    /* padding: 1% 0px; */
+}
+.slider-card-location{
+    font-size: 10px;
+    font-weight: 400;
+    color: white;
+    text-shadow: 10px black;
+}
